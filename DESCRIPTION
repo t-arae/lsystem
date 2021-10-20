@@ -1,11 +1,23 @@
 Package: lsystem
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A toy R package to play with Lindenmayer system
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Authors@R: person(given = "Toshihiro", family = "Arae", 
+                 email = "toshihiro.arae@gmail.com", 
+                 role = c("aut", "cre"))
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
+Depends: R (>= 4.1)
 License: What license is it under?
+URL: https://t-arae.github.io/lsystem,
+    https://github.com/t-arae/lsystem
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    ggforce,
+    ggplot2,
+    purrr,
+    stringr,
+    tibble
+RoxygenNote: 7.1.2

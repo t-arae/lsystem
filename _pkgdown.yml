@@ -1,0 +1,14 @@
+template:
+  params:
+    bootswatch: cerulean
+
+reference:
+- title: "functions"
+- contents:
+  - lsystem
+  - lsystem2
+  - w2curve
+  - w2curve2
+  - w2curve3
+  - w2curve4
+  - plot_curve
